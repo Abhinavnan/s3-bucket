@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h>Bucket List cat</h>
+        <h>Bucket List cat NaN</h>
         <a
           className="App-link"
           href="https://us-east-1.console.aws.amazon.com/s3/home?region=us-east-1#"
