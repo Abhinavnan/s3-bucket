@@ -1,7 +1,9 @@
 import logo from './Image/S3-Bucket.png'
 import './App.css';
-
-
+import { Amplify } from 'aws-amplify';
+import awsExports from './aws-exports';
+Amplify.configure(awsExports); 
+import { Storage } from 'aws-amplify';
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,14 @@ function App() {
           Learn React
         </a>
         <p> 
+        const listObjects = async () => {
+     try {
+       const result = await Storage.list(''); 
+       console.log(result);
+     } catch (error) {
+       console.error('Error listing objects:', error);
+     }
+   };
        </p>
       </header>
     </div>
