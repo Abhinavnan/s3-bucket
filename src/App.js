@@ -1,7 +1,6 @@
 import logo from './Image/S3-Bucket.png'
 import './App.css';
 
-import { Storage } from 'aws-amplify';
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,7 @@ function App() {
           Learn React
         </a>
         <p> 
- 
+         SATA
        </p>
       </header>
     </div>
